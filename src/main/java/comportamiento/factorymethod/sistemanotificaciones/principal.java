@@ -6,6 +6,8 @@ public class principal {
         NotificacionFactory factory;
         Notificacion notificacion;
 
+        System.out.println("este es un cambio desde la rama dev1");
+
         // Crear una notificación por Email
         factory = new EmailFactory();
         factory.enviarNotificacion("Hola, este es un mensaje de notificación por Email.");
