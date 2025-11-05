@@ -25,6 +25,8 @@ public class principal {
 
         System.out.println("haciendo un cambio desde dev2");
 
-        System.out.println("mensaje desde github");
+        System.out.println("mensaje desde github1");
+
+        System.out.println("mensaje desde github2");
     }
 }
