@@ -22,5 +22,8 @@ public class principal {
 
         factory = new FactoryWhatsApp();
         factory.enviarNotificacion("Hola, este es un mensaje de notificación por WhatsApp.");
+
+        factory.enviarNotificacion("enviado desde dev1-local");
+
     }
 }
