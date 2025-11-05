@@ -24,5 +24,7 @@ public class principal {
         factory.enviarNotificacion("Hola, este es un mensaje de notificación por WhatsApp.");
 
         System.out.println("haciendo un cambio desde dev2");
+
+        System.out.println("mensaje desde github");
     }
 }
