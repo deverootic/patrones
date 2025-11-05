@@ -1,4 +1,4 @@
-package comportamiento.factorymethod.sistemanotificaciones;
+package creacionales.factorymethod.sistemanotificaciones;
 
 public class principal {
 
@@ -23,7 +23,10 @@ public class principal {
         factory = new FactoryWhatsApp();
         factory.enviarNotificacion("Hola, este es un mensaje de notificación por WhatsApp.");
 
-        factory.enviarNotificacion("enviado desde dev1-local");
+        System.out.println("haciendo un cambio desde dev2");
 
+        System.out.println("mensaje desde github1");
+
+        System.out.println("mensaje desde github2");
     }
 }

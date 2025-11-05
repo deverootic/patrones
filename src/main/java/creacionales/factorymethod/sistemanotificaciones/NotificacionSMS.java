@@ -1,4 +1,4 @@
-package comportamiento.factorymethod.sistemanotificaciones;
+package creacionales.factorymethod.sistemanotificaciones;
 
 public class NotificacionSMS implements Notificacion {
 
